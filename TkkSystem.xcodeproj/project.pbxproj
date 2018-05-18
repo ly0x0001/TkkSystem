@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		320422B520A619520033A6E3 /* ConsumeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 320422B420A619520033A6E3 /* ConsumeTableViewController.m */; };
+		322580E52084B70400A82E01 /* AwesomeTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 322580E32084B70300A82E01 /* AwesomeTextField.m */; };
+		322580F820870FE200A82E01 /* CourseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 322580EC20870FE000A82E01 /* CourseCell.m */; };
+		322580F920870FE200A82E01 /* SelectWeekView.m in Sources */ = {isa = PBXBuildFile; fileRef = 322580ED20870FE000A82E01 /* SelectWeekView.m */; };
+		322580FA20870FE200A82E01 /* CouresCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 322580EE20870FE000A82E01 /* CouresCollectionViewLayout.m */; };
+		322580FB20870FE200A82E01 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 322580F120870FE100A82E01 /* Utils.m */; };
+		322580FC20870FE200A82E01 /* weekCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 322580F220870FE100A82E01 /* weekCell.m */; };
+		322580FD20870FE200A82E01 /* weekDay.m in Sources */ = {isa = PBXBuildFile; fileRef = 322580F420870FE100A82E01 /* weekDay.m */; };
+		322580FE20870FE200A82E01 /* TagResuableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 322580F520870FE200A82E01 /* TagResuableView.m */; };
+		322580FF20870FE200A82E01 /* CourseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 322580F720870FE200A82E01 /* CourseModel.m */; };
+		32258103208710C000A82E01 /* CourseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32258102208710C000A82E01 /* CourseViewController.m */; };
+		322581092088F50A00A82E01 /* ExamTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 322581082088F50A00A82E01 /* ExamTableViewController.m */; };
+		3225810C209F04C500A82E01 /* ExamTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3225810B209F04C500A82E01 /* ExamTableViewCell.m */; };
+		32258110209F722800A82E01 /* ExamModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3225810F209F722800A82E01 /* ExamModel.m */; };
+		3225811520A1F09A00A82E01 /* PersonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3225811320A1F09900A82E01 /* PersonViewController.m */; };
+		3225811B20A20BBB00A82E01 /* PersonTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3225811A20A20BBB00A82E01 /* PersonTableViewCell.m */; };
+		3225811E20A28F6000A82E01 /* PersonTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3225811D20A28F6000A82E01 /* PersonTableViewController.m */; };
+		3225812120A385EB00A82E01 /* ScoreTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3225812020A385EB00A82E01 /* ScoreTableViewController.m */; };
+		3225812520A3863900A82E01 /* ScoreTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3225812420A3863900A82E01 /* ScoreTableViewCell.m */; };
+		3225812820A38AFD00A82E01 /* ScoreModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3225812720A38AFD00A82E01 /* ScoreModel.m */; };
+		323512E02064FCD700894C49 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 323512DF2064FCD700894C49 /* AppDelegate.m */; };
+		323512E32064FCD700894C49 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 323512E22064FCD700894C49 /* ViewController.m */; };
+		323512E62064FCD700894C49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 323512E42064FCD700894C49 /* Main.storyboard */; };
+		323512E82064FCD700894C49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 323512E72064FCD700894C49 /* Assets.xcassets */; };
+		323512EB2064FCD700894C49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 323512E92064FCD700894C49 /* LaunchScreen.storyboard */; };
+		323512EE2064FCD700894C49 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 323512ED2064FCD700894C49 /* main.m */; };
+		5A15BA282CD49AED6F3928D3 /* libPods-TkkSystem.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F83ADAA10FADD892889B5444 /* libPods-TkkSystem.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		320422B320A619520033A6E3 /* ConsumeTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConsumeTableViewController.h; sourceTree = "<group>"; };
+		320422B420A619520033A6E3 /* ConsumeTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConsumeTableViewController.m; sourceTree = "<group>"; };
+		322580E32084B70300A82E01 /* AwesomeTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AwesomeTextField.m; sourceTree = "<group>"; };
+		322580E42084B70300A82E01 /* AwesomeTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AwesomeTextField.h; sourceTree = "<group>"; };
+		322580E820870FDF00A82E01 /* CourseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CourseCell.h; sourceTree = "<group>"; };
+		322580E920870FDF00A82E01 /* weekDay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = weekDay.h; sourceTree = "<group>"; };
+		322580EA20870FDF00A82E01 /* weekCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = weekCell.h; sourceTree = "<group>"; };
+		322580EB20870FE000A82E01 /* SelectWeekView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectWeekView.h; sourceTree = "<group>"; };
+		322580EC20870FE000A82E01 /* CourseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CourseCell.m; sourceTree = "<group>"; };
+		322580ED20870FE000A82E01 /* SelectWeekView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectWeekView.m; sourceTree = "<group>"; };
+		322580EE20870FE000A82E01 /* CouresCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CouresCollectionViewLayout.m; sourceTree = "<group>"; };
+		322580EF20870FE000A82E01 /* CourseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CourseModel.h; sourceTree = "<group>"; };
+		322580F020870FE100A82E01 /* TagResuableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagResuableView.h; sourceTree = "<group>"; };
+		322580F120870FE100A82E01 /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		322580F220870FE100A82E01 /* weekCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = weekCell.m; sourceTree = "<group>"; };
+		322580F320870FE100A82E01 /* CouresCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CouresCollectionViewLayout.h; sourceTree = "<group>"; };
+		322580F420870FE100A82E01 /* weekDay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = weekDay.m; sourceTree = "<group>"; };
+		322580F520870FE200A82E01 /* TagResuableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TagResuableView.m; sourceTree = "<group>"; };
+		322580F620870FE200A82E01 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		322580F720870FE200A82E01 /* CourseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CourseModel.m; sourceTree = "<group>"; };
+		32258101208710C000A82E01 /* CourseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CourseViewController.h; sourceTree = "<group>"; };
+		32258102208710C000A82E01 /* CourseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CourseViewController.m; sourceTree = "<group>"; };
+		322581072088F50A00A82E01 /* ExamTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExamTableViewController.h; sourceTree = "<group>"; };
+		322581082088F50A00A82E01 /* ExamTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExamTableViewController.m; sourceTree = "<group>"; };
+		3225810A209F04C500A82E01 /* ExamTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExamTableViewCell.h; sourceTree = "<group>"; };
+		3225810B209F04C500A82E01 /* ExamTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExamTableViewCell.m; sourceTree = "<group>"; };
+		3225810E209F722800A82E01 /* ExamModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExamModel.h; sourceTree = "<group>"; };
+		3225810F209F722800A82E01 /* ExamModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExamModel.m; sourceTree = "<group>"; };
+		3225811320A1F09900A82E01 /* PersonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonViewController.m; sourceTree = "<group>"; };
+		3225811420A1F09900A82E01 /* PersonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonViewController.h; sourceTree = "<group>"; };
+		3225811920A20BBB00A82E01 /* PersonTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonTableViewCell.h; sourceTree = "<group>"; };
+		3225811A20A20BBB00A82E01 /* PersonTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonTableViewCell.m; sourceTree = "<group>"; };
+		3225811C20A28F6000A82E01 /* PersonTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonTableViewController.h; sourceTree = "<group>"; };
+		3225811D20A28F6000A82E01 /* PersonTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonTableViewController.m; sourceTree = "<group>"; };
+		3225811F20A385EB00A82E01 /* ScoreTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScoreTableViewController.h; sourceTree = "<group>"; };
+		3225812020A385EB00A82E01 /* ScoreTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScoreTableViewController.m; sourceTree = "<group>"; };
+		3225812320A3863900A82E01 /* ScoreTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScoreTableViewCell.h; sourceTree = "<group>"; };
+		3225812420A3863900A82E01 /* ScoreTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScoreTableViewCell.m; sourceTree = "<group>"; };
+		3225812620A38AFD00A82E01 /* ScoreModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScoreModel.h; sourceTree = "<group>"; };
+		3225812720A38AFD00A82E01 /* ScoreModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScoreModel.m; sourceTree = "<group>"; };
+		323512DB2064FCD700894C49 /* TkkSystem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TkkSystem.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		323512DE2064FCD700894C49 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		323512DF2064FCD700894C49 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		323512E12064FCD700894C49 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		323512E22064FCD700894C49 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		323512E52064FCD700894C49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		323512E72064FCD700894C49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		323512EA2064FCD700894C49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		323512EC2064FCD700894C49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		323512ED2064FCD700894C49 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		391EDF43326EC14EE66A3918 /* Pods-TkkSystem.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TkkSystem.release.xcconfig"; path = "Pods/Target Support Files/Pods-TkkSystem/Pods-TkkSystem.release.xcconfig"; sourceTree = "<group>"; };
+		5C8F268ED0A061D5E56F2F3D /* Pods-TkkSystem.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TkkSystem.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TkkSystem/Pods-TkkSystem.debug.xcconfig"; sourceTree = "<group>"; };
+		F83ADAA10FADD892889B5444 /* libPods-TkkSystem.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TkkSystem.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		323512D82064FCD700894C49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A15BA282CD49AED6F3928D3 /* libPods-TkkSystem.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		320422B220A5F48E0033A6E3 /* Consume */ = {
+			isa = PBXGroup;
+			children = (
+				320422B320A619520033A6E3 /* ConsumeTableViewController.h */,
+				320422B420A619520033A6E3 /* ConsumeTableViewController.m */,
+			);
+			path = Consume;
+			sourceTree = "<group>";
+		};
+		3225810020870FFE00A82E01 /* Course */ = {
+			isa = PBXGroup;
+			children = (
+				322580F320870FE100A82E01 /* CouresCollectionViewLayout.h */,
+				322580EE20870FE000A82E01 /* CouresCollectionViewLayout.m */,
+				322580E820870FDF00A82E01 /* CourseCell.h */,
+				322580EC20870FE000A82E01 /* CourseCell.m */,
+				322580EA20870FDF00A82E01 /* weekCell.h */,
+				322580F220870FE100A82E01 /* weekCell.m */,
+				322580E920870FDF00A82E01 /* weekDay.h */,
+				322580F420870FE100A82E01 /* weekDay.m */,
+				322580EF20870FE000A82E01 /* CourseModel.h */,
+				322580F720870FE200A82E01 /* CourseModel.m */,
+				322580EB20870FE000A82E01 /* SelectWeekView.h */,
+				322580ED20870FE000A82E01 /* SelectWeekView.m */,
+				322580F020870FE100A82E01 /* TagResuableView.h */,
+				322580F520870FE200A82E01 /* TagResuableView.m */,
+				322580F620870FE200A82E01 /* Utils.h */,
+				322580F120870FE100A82E01 /* Utils.m */,
+				32258101208710C000A82E01 /* CourseViewController.h */,
+				32258102208710C000A82E01 /* CourseViewController.m */,
+			);
+			path = Course;
+			sourceTree = "<group>";
+		};
+		3225810D209F719A00A82E01 /* Exam */ = {
+			isa = PBXGroup;
+			children = (
+				3225810E209F722800A82E01 /* ExamModel.h */,
+				3225810F209F722800A82E01 /* ExamModel.m */,
+				322581072088F50A00A82E01 /* ExamTableViewController.h */,
+				322581082088F50A00A82E01 /* ExamTableViewController.m */,
+				3225810A209F04C500A82E01 /* ExamTableViewCell.h */,
+				3225810B209F04C500A82E01 /* ExamTableViewCell.m */,
+			);
+			name = Exam;
+			sourceTree = "<group>";
+		};
+		3225811620A1F0CC00A82E01 /* Person */ = {
+			isa = PBXGroup;
+			children = (
+				3225811C20A28F6000A82E01 /* PersonTableViewController.h */,
+				3225811D20A28F6000A82E01 /* PersonTableViewController.m */,
+				3225811420A1F09900A82E01 /* PersonViewController.h */,
+				3225811320A1F09900A82E01 /* PersonViewController.m */,
+				3225811920A20BBB00A82E01 /* PersonTableViewCell.h */,
+				3225811A20A20BBB00A82E01 /* PersonTableViewCell.m */,
+			);
+			path = Person;
+			sourceTree = "<group>";
+		};
+		3225812220A385F700A82E01 /* Score */ = {
+			isa = PBXGroup;
+			children = (
+				3225811F20A385EB00A82E01 /* ScoreTableViewController.h */,
+				3225812020A385EB00A82E01 /* ScoreTableViewController.m */,
+				3225812320A3863900A82E01 /* ScoreTableViewCell.h */,
+				3225812420A3863900A82E01 /* ScoreTableViewCell.m */,
+				3225812620A38AFD00A82E01 /* ScoreModel.h */,
+				3225812720A38AFD00A82E01 /* ScoreModel.m */,
+			);
+			path = Score;
+			sourceTree = "<group>";
+		};
+		323512D22064FCD700894C49 = {
+			isa = PBXGroup;
+			children = (
+				323512DD2064FCD700894C49 /* TkkSystem */,
+				323512DC2064FCD700894C49 /* Products */,
+				DD2DBD9E890B5AB263187F20 /* Pods */,
+				B4EF073CEEF8B2F118E570C5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		323512DC2064FCD700894C49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				323512DB2064FCD700894C49 /* TkkSystem.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		323512DD2064FCD700894C49 /* TkkSystem */ = {
+			isa = PBXGroup;
+			children = (
+				3225810020870FFE00A82E01 /* Course */,
+				3225810D209F719A00A82E01 /* Exam */,
+				3225811620A1F0CC00A82E01 /* Person */,
+				3225812220A385F700A82E01 /* Score */,
+				320422B220A5F48E0033A6E3 /* Consume */,
+				322580E42084B70300A82E01 /* AwesomeTextField.h */,
+				322580E32084B70300A82E01 /* AwesomeTextField.m */,
+				323512DE2064FCD700894C49 /* AppDelegate.h */,
+				323512DF2064FCD700894C49 /* AppDelegate.m */,
+				323512E12064FCD700894C49 /* ViewController.h */,
+				323512E22064FCD700894C49 /* ViewController.m */,
+				323512E42064FCD700894C49 /* Main.storyboard */,
+				323512E72064FCD700894C49 /* Assets.xcassets */,
+				323512E92064FCD700894C49 /* LaunchScreen.storyboard */,
+				323512EC2064FCD700894C49 /* Info.plist */,
+				323512ED2064FCD700894C49 /* main.m */,
+			);
+			path = TkkSystem;
+			sourceTree = "<group>";
+		};
+		B4EF073CEEF8B2F118E570C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F83ADAA10FADD892889B5444 /* libPods-TkkSystem.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD2DBD9E890B5AB263187F20 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5C8F268ED0A061D5E56F2F3D /* Pods-TkkSystem.debug.xcconfig */,
+				391EDF43326EC14EE66A3918 /* Pods-TkkSystem.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		323512DA2064FCD700894C49 /* TkkSystem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 323512F12064FCD800894C49 /* Build configuration list for PBXNativeTarget "TkkSystem" */;
+			buildPhases = (
+				366D4B3025C89EF115A9D574 /* [CP] Check Pods Manifest.lock */,
+				323512D72064FCD700894C49 /* Sources */,
+				323512D82064FCD700894C49 /* Frameworks */,
+				323512D92064FCD700894C49 /* Resources */,
+				77A31685731D5AB11BF9B267 /* [CP] Embed Pods Frameworks */,
+				A82D43325E16C1426EAAD5A7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TkkSystem;
+			productName = TkkSystem;
+			productReference = 323512DB2064FCD700894C49 /* TkkSystem.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		323512D32064FCD700894C49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = liny;
+				TargetAttributes = {
+					323512DA2064FCD700894C49 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 323512D62064FCD700894C49 /* Build configuration list for PBXProject "TkkSystem" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 323512D22064FCD700894C49;
+			productRefGroup = 323512DC2064FCD700894C49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				323512DA2064FCD700894C49 /* TkkSystem */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		323512D92064FCD700894C49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				323512EB2064FCD700894C49 /* LaunchScreen.storyboard in Resources */,
+				323512E82064FCD700894C49 /* Assets.xcassets in Resources */,
+				323512E62064FCD700894C49 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		366D4B3025C89EF115A9D574 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TkkSystem-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77A31685731D5AB11BF9B267 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TkkSystem/Pods-TkkSystem-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A82D43325E16C1426EAAD5A7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TkkSystem/Pods-TkkSystem-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		323512D72064FCD700894C49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3225810C209F04C500A82E01 /* ExamTableViewCell.m in Sources */,
+				322580FF20870FE200A82E01 /* CourseModel.m in Sources */,
+				3225811B20A20BBB00A82E01 /* PersonTableViewCell.m in Sources */,
+				32258110209F722800A82E01 /* ExamModel.m in Sources */,
+				322580FA20870FE200A82E01 /* CouresCollectionViewLayout.m in Sources */,
+				322580FE20870FE200A82E01 /* TagResuableView.m in Sources */,
+				322580FD20870FE200A82E01 /* weekDay.m in Sources */,
+				3225812520A3863900A82E01 /* ScoreTableViewCell.m in Sources */,
+				3225811520A1F09A00A82E01 /* PersonViewController.m in Sources */,
+				322580E52084B70400A82E01 /* AwesomeTextField.m in Sources */,
+				322580FC20870FE200A82E01 /* weekCell.m in Sources */,
+				322580FB20870FE200A82E01 /* Utils.m in Sources */,
+				322581092088F50A00A82E01 /* ExamTableViewController.m in Sources */,
+				3225812120A385EB00A82E01 /* ScoreTableViewController.m in Sources */,
+				320422B520A619520033A6E3 /* ConsumeTableViewController.m in Sources */,
+				3225812820A38AFD00A82E01 /* ScoreModel.m in Sources */,
+				322580F920870FE200A82E01 /* SelectWeekView.m in Sources */,
+				32258103208710C000A82E01 /* CourseViewController.m in Sources */,
+				3225811E20A28F6000A82E01 /* PersonTableViewController.m in Sources */,
+				323512E32064FCD700894C49 /* ViewController.m in Sources */,
+				322580F820870FE200A82E01 /* CourseCell.m in Sources */,
+				323512EE2064FCD700894C49 /* main.m in Sources */,
+				323512E02064FCD700894C49 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		323512E42064FCD700894C49 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				323512E52064FCD700894C49 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		323512E92064FCD700894C49 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				323512EA2064FCD700894C49 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		323512EF2064FCD700894C49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		323512F02064FCD700894C49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		323512F22064FCD800894C49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C8F268ED0A061D5E56F2F3D /* Pods-TkkSystem.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9B894Z3H36;
+				INFOPLIST_FILE = TkkSystem/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = liny.TkkSystem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		323512F32064FCD800894C49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 391EDF43326EC14EE66A3918 /* Pods-TkkSystem.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9B894Z3H36;
+				INFOPLIST_FILE = TkkSystem/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = liny.TkkSystem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		323512D62064FCD700894C49 /* Build configuration list for PBXProject "TkkSystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				323512EF2064FCD700894C49 /* Debug */,
+				323512F02064FCD700894C49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		323512F12064FCD800894C49 /* Build configuration list for PBXNativeTarget "TkkSystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				323512F22064FCD800894C49 /* Debug */,
+				323512F32064FCD800894C49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 323512D32064FCD700894C49 /* Project object */;
+}
