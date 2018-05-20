@@ -28,3 +28,7 @@
 ![Start](https://raw.githubusercontent.com/01-Liny/TkkSystem/master/image/3-2.jpg?imageView2/2/w/252/h/450/interlace/0/q/41)
 
 ![Start](https://raw.githubusercontent.com/01-Liny/TkkSystem/master/image/4-2.jpg?imageView2/2/w/252/h/450/interlace/0/q/41)
+
+## License
+
+TkkSystem is available under the MIT license.
