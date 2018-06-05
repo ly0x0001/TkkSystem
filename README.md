@@ -27,9 +27,9 @@
 
 <img width="426" height="820" src="./image/1.gif"/>
 
-![Start](https://raw.githubusercontent.com/01-Liny/TkkSystem/master/image/1-2.jpg)
-
 - 部分页面截图
+
+![Start](https://raw.githubusercontent.com/01-Liny/TkkSystem/master/image/1-2.jpg)
 
 ![Start](https://raw.githubusercontent.com/01-Liny/TkkSystem/master/image/2.jpg)
 
