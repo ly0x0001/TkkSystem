@@ -25,9 +25,7 @@
 
 - 程序运行gif
 
-![Start](./image/1.gif =426x866)
-
-<img width="426" height="866" src="./image/1.gif"/>
+<img width="426" height="820" src="./image/1.gif"/>
 
 ![Start](https://raw.githubusercontent.com/01-Liny/TkkSystem/master/image/1-2.jpg)
 
