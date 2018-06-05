@@ -21,6 +21,8 @@
 
 ## Screenshot
 
+![Start](raw.githubusercontent.com/01-Liny/TkkSystem/master/image/1.gif)
+
 ![Start](https://raw.githubusercontent.com/01-Liny/TkkSystem/master/image/1-2.jpg?imageView2/2/w/252/h/450/interlace/0/q/41)
 
 ![Start](https://raw.githubusercontent.com/01-Liny/TkkSystem/master/image/2.jpg?imageView2/2/w/252/h/450/interlace/0/q/41)
