@@ -10,7 +10,7 @@
 - TkkSystem是为嘉庚学子开发的一款校园App。
 - 对Web教务系统登陆接口进行抓包分析
 - 使用第三方网络库AFNetworking模拟浏览器登录教务系统
-- 阅读修改第三方库AwesomeTextField达到自己所需的TextField效果
+- 阅读第三方库AwesomeTextField并进行修改达到自己所需的TextField效果
 - 使用UICollectionView模拟实现超级课程表的课表显示方式
 - 对日常高频功能进行实现
 
