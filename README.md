@@ -25,17 +25,19 @@
 
 - 程序运行gif
 
-![Start](./image/1.gif)
+![Start](./image/1.gif =426x866)
 
-![Start](https://raw.githubusercontent.com/01-Liny/TkkSystem/master/image/1-2.jpg?imageView2/2/w/252/h/450/interlace/0/q/41)
+<img width="426" height="866" src="./image/1.gif"/>
+
+![Start](https://raw.githubusercontent.com/01-Liny/TkkSystem/master/image/1-2.jpg)
 
 - 部分页面截图
 
-![Start](https://raw.githubusercontent.com/01-Liny/TkkSystem/master/image/2.jpg?imageView2/2/w/252/h/450/interlace/0/q/41)
+![Start](https://raw.githubusercontent.com/01-Liny/TkkSystem/master/image/2.jpg)
 
-![Start](https://raw.githubusercontent.com/01-Liny/TkkSystem/master/image/3-2.jpg?imageView2/2/w/252/h/450/interlace/0/q/41)
+![Start](https://raw.githubusercontent.com/01-Liny/TkkSystem/master/image/3-2.jpg)
 
-![Start](https://raw.githubusercontent.com/01-Liny/TkkSystem/master/image/4-2.jpg?imageView2/2/w/252/h/450/interlace/0/q/41)
+![Start](https://raw.githubusercontent.com/01-Liny/TkkSystem/master/image/4-2.jpg)
 
 ## License
 
